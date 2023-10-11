@@ -1,0 +1,50 @@
+body {
+
+    background-color: rgba(111, 186, 255, 0.68);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    min-height: 10vh;
+    background-color: black;
+}
+
+
+.navStyling {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    align-content: center;
+    margin: 0;
+    width: 100%;
+
+}
+
+.navStyling a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section {
+    padding: 4%;
+    flex: 1 1 300px;
+
+}
